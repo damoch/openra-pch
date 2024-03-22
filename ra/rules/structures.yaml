@@ -5,7 +5,7 @@ MSLO:
 	Selectable:
 		Bounds: 2048, 1024
 	Valued:
-		Cost: 2500
+		Cost: 10000
 	Tooltip:
 		Name: Missile Silo
 	Buildable:
@@ -131,7 +131,7 @@ SPEN:
 		Types: SpyInfiltrate
 		PlayerExperience: 10
 	Valued:
-		Cost: 800
+		Cost: 200
 	Tooltip:
 		Name: Sub Pen
 	Buildable:
@@ -281,7 +281,7 @@ SYRD:
 		Prerequisites: anypower, ~structures.allies, ~techlevel.low
 		Description: Produces and repairs\nships and transports.
 	Valued:
-		Cost: 1000
+		Cost: 200
 	Tooltip:
 		Name: Naval Yard
 	Targetable:
@@ -404,7 +404,7 @@ IRON:
 		BuildLimit: 1
 		Description: Makes a group of units invulnerable\nfor a short time.\nRequires power to operate.\nMaximum 1 can be built.\n  Special Ability: Invulnerability
 	Valued:
-		Cost: 1500
+		Cost: 10000
 	Tooltip:
 		Name: Iron Curtain
 	Building:
@@ -475,7 +475,7 @@ PDOX:
 		BuildLimit: 1
 		Description: Teleports a group of units across the\nmap for a short time.\nRequires power to operate.\nMaximum 1 can be built.\n  Special Ability: Chronoshift
 	Valued:
-		Cost: 1500
+		Cost: 10000
 	Tooltip:
 		Name: Chronosphere
 	Building:
@@ -570,7 +570,7 @@ TSLA:
 		Prerequisites: weap, ~structures.soviet, ~techlevel.medium
 		Description: Advanced base defense.\nRequires power to operate.\nCan detect cloaked units.\n  Strong vs Vehicles, Infantry\n  Weak vs Aircraft
 	Valued:
-		Cost: 1200
+		Cost: 30000
 	Tooltip:
 		Name: Tesla Coil
 	Selectable:
@@ -614,7 +614,7 @@ AGUN:
 		Prerequisites: dome, ~structures.allies, ~techlevel.medium
 		Description: Anti-Air base defense.\nRequires power to operate.\n  Strong vs Aircraft\n  Weak vs Ground units
 	Valued:
-		Cost: 800
+		Cost: 400
 	Tooltip:
 		Name: AA Gun
 	Selectable:
@@ -669,7 +669,7 @@ DOME:
 		Prerequisites: proc, ~techlevel.medium
 		Description: Provides an overview\nof the battlefield.\nRequires power to operate.
 	Valued:
-		Cost: 1500
+		Cost: 200
 	Tooltip:
 		Name: Radar Dome
 	Building:
@@ -718,7 +718,7 @@ PBOX:
 		Prerequisites: tent, ~structures.allies, ~techlevel.low
 		Description: Static defense with a fireport for\na garrisoned soldier.\nCan detect cloaked units.\n  Strong vs Infantry, Light armor\n  Weak vs Tanks, Aircraft
 	Valued:
-		Cost: 600
+		Cost: 400
 	CustomSellValue:
 		Value: 400
 	Health:
@@ -774,7 +774,7 @@ HBOX:
 		Prerequisites: tent, ~structures.allies, ~techlevel.medium
 		Description: Camouflaged static defense with a fireport\nfor a garrisoned soldier.\nCan detect cloaked units.\n  Strong vs Infantry, Light armor\n  Weak vs Tanks, Aircraft
 	Valued:
-		Cost: 750
+		Cost: 400
 	CustomSellValue:
 		Value: 550
 	Health:
@@ -833,7 +833,7 @@ GUN:
 		Prerequisites: tent, ~structures.allies, ~techlevel.medium
 		Description: Anti-Armor base defense.\nCan detect cloaked units.\n  Strong vs Vehicles\n  Weak vs Infantry, Aircraft
 	Valued:
-		Cost: 800
+		Cost: 400
 	Tooltip:
 		Name: Turret
 	Building:
@@ -882,7 +882,7 @@ FTUR:
 		Prerequisites: barr, ~structures.soviet, ~techlevel.low
 		Description: Anti-Infantry base defense.\nCan detect cloaked units.\n  Strong vs Infantry, Light armor\n  Weak vs Tanks, Aircraft
 	Valued:
-		Cost: 600
+		Cost: 400
 	Tooltip:
 		Name: Flame Tower
 	Building:
@@ -935,7 +935,7 @@ SAM:
 		Prerequisites: dome, ~structures.soviet, ~techlevel.medium
 		Description: Anti-Air base defense.\nRequires power to operate.\n  Strong vs Aircraft\n  Weak vs Ground units
 	Valued:
-		Cost: 700
+		Cost: 400
 	Tooltip:
 		Name: SAM Site
 	Building:
@@ -987,7 +987,7 @@ ATEK:
 		Prerequisites: weap, dome, ~structures.allies, ~techlevel.high
 		Description: Provides Allied advanced technologies.\n  Special Ability: GPS Satellite
 	Valued:
-		Cost: 1500
+		Cost: 500
 	Tooltip:
 		Name: Allied Tech Center
 	ProvidesPrerequisite:
@@ -1041,7 +1041,7 @@ WEAP:
 		Prerequisites: proc, ~techlevel.low
 		Description: Produces vehicles.
 	Valued:
-		Cost: 2000
+		Cost: 400
 	Tooltip:
 		Name: War Factory
 	Building:
@@ -1195,7 +1195,7 @@ FACT:
 	Production:
 		Produces: Building, Defense
 	Valued:
-		Cost: 2000
+		Cost: 400
 	Tooltip:
 		Name: Construction Yard
 	SpawnActorsOnSell:
@@ -1264,7 +1264,7 @@ PROC:
 		Prerequisites: anypower, ~techlevel.infonly
 		Description: Refines Ore and Gems\ninto credits.
 	Valued:
-		Cost: 1400
+		Cost: 400
 	Tooltip:
 		Name: Ore Refinery
 	Building:
@@ -1404,7 +1404,7 @@ HPAD:
 		Prerequisites: dome, ~structures.allies, ~techlevel.medium
 		Description: Produces and reloads\nhelicopters.
 	Valued:
-		Cost: 500
+		Cost: 200
 	Tooltip:
 		Name: Helipad
 	Building:
@@ -1491,7 +1491,7 @@ AFLD:
 		Prerequisites: dome, ~structures.soviet, ~techlevel.medium, ~!structures.ukraine
 		Description: Produces and reloads aircraft.\n  Special Ability: Spy Plane\n  Special Ability: Paratroopers
 	Valued:
-		Cost: 500
+		Cost: 200
 	Tooltip:
 		Name: Airfield
 	Selectable:
@@ -1731,7 +1731,7 @@ STEK:
 		Prerequisites: weap, dome, ~structures.soviet, ~techlevel.high
 		Description: Provides Soviet advanced technologies.
 	Valued:
-		Cost: 1500
+		Cost: 5000
 	Tooltip:
 		Name: Soviet Tech Center
 	ProvidesPrerequisite:
@@ -1770,7 +1770,7 @@ BARR:
 		Prerequisites: anypower, ~structures.soviet, ~techlevel.infonly
 		Description: Trains infantry.
 	Valued:
-		Cost: 500
+		Cost: 200
 	Tooltip:
 		Name: Soviet Barracks
 	Building:
@@ -1938,7 +1938,7 @@ TENT:
 		Prerequisites: anypower, ~structures.allies, ~techlevel.infonly
 		Description: Trains infantry.
 	Valued:
-		Cost: 500
+		Cost: 200
 	Tooltip:
 		Name: Allied Barracks
 	Building:
@@ -2026,7 +2026,7 @@ FIX:
 		Prerequisites: weap, ~techlevel.medium
 		Description: Repairs vehicles for credits.
 	Valued:
-		Cost: 1200
+		Cost: 200
 	Tooltip:
 		Name: Service Depot
 	Building:
@@ -2077,7 +2077,7 @@ SBAG:
 		Prerequisites: fact, ~structures.allies, ~techlevel.low
 		Description: Stops infantry and light vehicles.\nCan be crushed by tanks.
 	Valued:
-		Cost: 30
+		Cost: 1
 	CustomSellValue:
 		Value: 0
 	Tooltip:
@@ -2101,7 +2101,7 @@ FENC:
 		Prerequisites: fact, ~structures.soviet, ~techlevel.low
 		Description: Stops infantry and light vehicles.\nCan be crushed by tanks.
 	Valued:
-		Cost: 30
+		Cost: 1
 	CustomSellValue:
 		Value: 0
 	Tooltip:
@@ -2125,7 +2125,7 @@ BRIK:
 		Prerequisites: fact, ~techlevel.medium
 		Description: Stop units and blocks enemy fire.
 	Valued:
-		Cost: 200
+		Cost: 20
 	CustomSellValue:
 		Value: 0
 	Tooltip:

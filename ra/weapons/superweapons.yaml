@@ -11,7 +11,7 @@ ParaBomb:
 		Shadow: False
 	Warhead@1Dam: SpreadDamage
 		Spread: 1000
-		Damage: 30000
+		Damage: 3000000
 		ValidTargets: GroundActor, WaterActor
 		Versus:
 			None: 40
@@ -34,8 +34,8 @@ ParaBomb:
 Atomic:
 	ValidTargets: Ground, Water, GroundActor, WaterActor, Underwater, AirborneActor, Trees
 	Warhead@1Dam_impact: SpreadDamage
-		Spread: 1c0
-		Damage: 15000
+		Spread: 5c0
+		Damage: 150000
 		Falloff: 1000, 368, 135, 50, 18, 7, 0
 		ValidTargets: GroundActor, WaterActor, Underwater, AirborneActor, Trees
 		Versus:
@@ -55,7 +55,7 @@ Atomic:
 		ValidTargets: Ground, Water, Air
 	Warhead@5Dam_areanuke1: SpreadDamage
 		Spread: 2c0
-		Damage: 6000
+		Damage: 60000
 		Falloff: 1000, 368, 135, 50, 18, 7, 0
 		Delay: 5
 		ValidTargets: GroundActor, WaterActor, Underwater, AirborneActor, Trees
@@ -77,7 +77,7 @@ Atomic:
 		ImpactActors: false
 	Warhead@9Dam_areanuke2: SpreadDamage
 		Spread: 3c0
-		Damage: 6000
+		Damage: 60000
 		Falloff: 1000, 368, 135, 50, 18, 7, 0
 		Delay: 10
 		ValidTargets: GroundActor, Trees, WaterActor, Underwater, AirborneActor
@@ -96,7 +96,7 @@ Atomic:
 		Delay: 10
 	Warhead@13Dam_areanuke3: SpreadDamage
 		Spread: 4c0
-		Damage: 6000
+		Damage: 60000
 		Falloff: 1000, 368, 135, 50, 18, 7, 0
 		Delay: 15
 		ValidTargets: GroundActor, Trees, WaterActor, Underwater, AirborneActor

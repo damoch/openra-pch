@@ -9,7 +9,7 @@
 		Arm: 2
 		Blockable: false
 		ContrailLength: 10
-		Inaccuracy: 128
+		Inaccuracy: 0
 		Image: DRAGON
 		Shadow: True
 		HorizontalRateOfTurn: 20
@@ -314,23 +314,23 @@ SubMissileAA:
 
 SCUD:
 	Inherits: ^AntiGroundMissile
-	ReloadDelay: 240
+	ReloadDelay: 120
 	Range: 20c0
 	MinRange: 4c0
 	Report: missile1.aud
 	-Projectile:
 	Projectile: Bullet
-		Speed: 200
+		Speed: 400
 		Blockable: false
 		TrailImage: smokey
 		TrailDelay: 5
-		Inaccuracy: 213
+		Inaccuracy: 0
 		Image: V2
 		Shadow: True
 		LaunchAngle: 62
 	Warhead@1Dam: SpreadDamage
 		Spread: 341
-		Damage: 45000
+		Damage: 100000
 		Falloff: 1000, 368, 135, 50, 18, 7, 0
 		ValidTargets: GroundActor, WaterActor, Trees
 		Versus:

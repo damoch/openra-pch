@@ -72,7 +72,7 @@
 	Burst: 2
 	InvalidTargets: Air, Infantry
 	Warhead@1Dam: SpreadDamage
-		Damage: 6000
+		Damage: 60000
 		Versus:
 			Heavy: 115
 		InvalidTargets: Air

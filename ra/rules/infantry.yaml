@@ -86,7 +86,9 @@ E1:
 	UpdatesPlayerStatistics:
 		AddToArmyValue: true
 	Health:
-		HP: 25
+		HP: 25	
+	RevealsShroud:
+		Range: 12c512
 	Armament@PRIMARY:
 		Weapon: M1Carbine
 	Armament@GARRISONED:
@@ -258,7 +260,7 @@ E4:
 	Explodes:
 		Weapon: VisualExplode
 		EmptyWeapon: VisualExplode
-		Chance: 50
+		Chance: 99
 	WithInfantryBody:
 		DefaultAttackSequence: shoot
 		RequiresCondition: !parachute

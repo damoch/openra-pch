@@ -430,10 +430,10 @@ JEEP:
 		PauseOnCondition: notmobile || being-captured
 	RevealsShroud:
 		MinRange: 4c0
-		Range: 7c0
+		Range: 20c0
 		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
-		Range: 4c0
+		Range: 8c0
 	Turreted:
 		TurnSpeed: 40
 		Offset: 0,0,128
@@ -467,7 +467,7 @@ APC:
 	Valued:
 		Cost: 200
 	Tooltip:
-		Name: Armored Personnel Carrier
+		Name: BTR
 	UpdatesPlayerStatistics:
 		AddToArmyValue: true
 	Health:
@@ -484,7 +484,7 @@ APC:
 	RevealsShroud@GAPGEN:
 		Range: 4c0
 	Armament:
-		Weapon: M60mg
+		Weapon: 25mm
 		LocalOffset: 85,0,171
 		MuzzleSequence: muzzle
 	AttackFrontal:
@@ -715,7 +715,7 @@ FTRK:
 		Speed: 113
 	RevealsShroud:
 		MinRange: 4c0
-		Range: 6c0
+		Range: 15c0
 		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 4c0

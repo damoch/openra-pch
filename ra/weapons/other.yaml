@@ -1,11 +1,11 @@
 ^FireWeapon:
-	ValidTargets: Ground, Water, GroundActor, WaterActor, Trees
+	ValidTargets: Ground, Water, GroundActor, Trees
 	ReloadDelay: 70
-	Range: 5c0
+	Range: 8c0
 	Warhead@1Dam: SpreadDamage
-		Spread: 213
-		Damage: 15000
-		ValidTargets: GroundActor, WaterActor, Trees
+		Spread: 400
+		Damage: 30000
+		ValidTargets: GroundActor, Trees
 		Versus:
 			None: 90
 			Wood: 50
@@ -24,10 +24,10 @@
 
 FireballLauncher:
 	Inherits: ^FireWeapon
-	Burst: 2
+	Burst: 5
 	BurstDelays: 20
 	Projectile: Bullet
-		Speed: 250
+		Speed: 400
 		TrailImage: fb2
 		Image: FB1
 	Warhead@1Dam: SpreadDamage
@@ -36,18 +36,18 @@ FireballLauncher:
 
 Flamer:
 	Inherits: ^FireWeapon
-	ReloadDelay: 50
+	ReloadDelay: 200
 	Burst: 15
 	BurstDelays: 1
 	Projectile: Bullet
-		Speed: 170
+		Speed: 340
 		TrailImage: fb4
 		Image: fb3
 		LaunchAngle: 62
 		Inaccuracy: 853
 	Warhead@1Dam: SpreadDamage
 		Spread: 341
-		Damage: 1000
+		Damage: 5000
 		Versus:
 			None: 70
 			Wood: 80
@@ -68,7 +68,7 @@ Napalm:
 		Blockable: false
 	Warhead@1Dam: SpreadDamage
 		Spread: 170
-		Damage: 10000
+		Damage: 100000
 		Versus:
 			Wood: 100
 			Concrete: 50
@@ -81,7 +81,7 @@ Napalm:
 	ValidTargets: Ground, Water, GroundActor, WaterActor
 	Warhead@1Dam: SpreadDamage
 		Spread: 42
-		Damage: 10000
+		Damage: 100000
 		ValidTargets: GroundActor, WaterActor
 		Versus:
 			None: 1000
@@ -130,7 +130,7 @@ Heal:
 		Speed: 1c682
 	Warhead@1Dam: SpreadDamage
 		Spread: 213
-		Damage: -5000
+		Damage: -50000
 		ValidRelationships: Ally
 		ValidTargets: Heal
 		DebugOverlayColor: 00FF00
@@ -140,7 +140,7 @@ Repair:
 	Report: fixit1.aud
 	ValidTargets: Repair
 	Warhead@1Dam: SpreadDamage
-		Damage: -2000
+		Damage: -20000
 		ValidTargets: Repair
 
 Demolish:
